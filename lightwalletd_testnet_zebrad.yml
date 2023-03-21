@@ -1,0 +1,9 @@
+bind-addr: 127.0.0.1:9073
+http-bind-addr: 127.0.0.1:9073
+grpc-bind-addr: 127.0.0.1:9074 
+cache-size: 10
+log-level: 10
+#log-file: /dev/stdout
+log-file: /home/yourUserName/lightwalletd/testnet_zebrad/lightwalletd.log
+data-dir: /home/yourUserName/lightwalletd/testnet_zebrad
+zcash-conf-path: /home/yourUserName/lightwalletd/zebra.conf.testnet 

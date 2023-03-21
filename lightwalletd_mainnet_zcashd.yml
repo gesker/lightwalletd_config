@@ -1,0 +1,9 @@
+bind-addr: 127.0.0.1:9067
+http-bind-addr: 127.0.0.1:9067
+grpc-bind-addr: 127.0.0.1:9068 
+cache-size: 10
+log-level: 10
+#log-file: /dev/stdout
+log-file: /home/yourUserName/lightwalletd/mainnet_zcashd/lightwalletd.log
+data-dir: /home/yourUserName/lightwalletd/mainnet_zcashd
+zcash-conf-path: /home/youUserName/zcashd/zcash.conf.mainnet 

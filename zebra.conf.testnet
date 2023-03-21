@@ -1,0 +1,9 @@
+testnet=1
+rpcbind=127.0.0.1
+rpcport=18242
+
+# Needed for lightwalletd integration
+# Entires must be present for lightwalletd but are NOT used by zebrad
+rpcuser=XXXX
+rpcpassword=YYYYY
+

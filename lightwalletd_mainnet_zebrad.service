@@ -1,0 +1,13 @@
+[Unit]
+Description=LightwalletD Daemon (Mainnet via ZebraD)
+After=network.target zebrad_mainnet.service
+StartLimitBurst=5
+StartLimitIntervalSec=10
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=gesker
+ExecStart=/home/gesker/Development/lightwalletd/lightwalletd --config /home/gesker/lightwalletd/lightwalletd_mainnet_zebrad.yml --no-tls-very-insecure
+[Install]
+WantedBy=multi-user.target
