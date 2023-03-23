@@ -29,12 +29,12 @@ Completing the instructions found in those instructions is NOT NECESSIARILY a pr
 
 
 If you were to complete ALL THREE sets of instrutions your configuration will resemble:
-
+```
 [zcash blockchain network] <--> 8233:[zcash mainnet]:8232 <--> [lightwalletd]:9067(Rest)&9068(gRpc) <--> wallet software
 [zcash blockchain network] <--> 18233:[zcash testnet]:18232 <--> [lightwalletd]:9069(Rest)&9070(gRpc) <--> wallet software
 [zcash blockchain network] <--> 8234:[zebra mainnet]:8242 <--> [lightwalletd]:9071(Rest)&9072(gRpc) <--> wallet software
 [zcash blockchain network] <--> 18234:[zebra testnet]:18242 <--> [lightwalletd]:9073(Rest)&9074(gRpc) <--> wallet software
-
+```
 
 So, you will have... 
 
